@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 10px auto;
+  max-width: 800px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+textarea,
+select,
+button {
+  display: block;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.add_button {
+  margin: 25px;
+  width: 80px;
+  height: 50px;
+}
+
+textarea {
+  height: 80px;
+}
+
+b.note_category {
+  margin-left: 20px;
+}
+
+select {
+  font-size: 20px;
+  padding: 2px;
+  width: 15%;
+  margin-left: 10px;
+}
+
+button {
+  font-size: 14px;
+  height: 30px;
+  width: 80px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+}
+
+.actions button {
+  margin: 0 3px;
+}
+
+.summary-table {
+  margin-top: 20px;
+}
+
+.summary-table th {
+  background-color: #f2f2f2;
+}
+
+.summary-table td {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 30px;
+  display: inline-block; /* Display headings in one line */
+  margin-right: 20px; /* Add space between headings */
+}
