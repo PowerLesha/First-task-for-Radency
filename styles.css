@@ -3,6 +3,9 @@ body {
   line-height: 1.6;
   margin: 10px auto;
   max-width: 800px;
+
+  background-image: url("https://images.unsplash.com/photo-1444791252404-500e5b11f71b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+  background-size: cover;
 }
 
 h1 {
@@ -64,7 +67,7 @@ table {
 
 th,
 td {
-  border: 1px solid #ccc;
+  border: 1px solid #101010;
   padding: 8px;
   text-align: center;
 }
