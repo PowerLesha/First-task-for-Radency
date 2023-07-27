@@ -13,9 +13,8 @@ function handleAddNoteFormSubmit(event) {
   const content = document.querySelector("#content").value;
   const category = document.querySelector("#category").value;
 
-  // Create a new note object with the form data
   const newNote = {
-    id: Date.now(), // A simple way to generate a unique ID (not suitable for production)
+    id: Date.now(),
     createdAt: new Date(),
     content,
     category,

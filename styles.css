@@ -100,6 +100,6 @@ tr:nth-child(even) {
 
 h2 {
   margin-top: 30px;
-  display: inline-block; /* Display headings in one line */
-  margin-right: 20px; /* Add space between headings */
+  display: inline-block;
+  margin-right: 20px;
 }
